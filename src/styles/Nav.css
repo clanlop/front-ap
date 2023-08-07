@@ -1,0 +1,21 @@
+.navbar{
+   
+   
+}
+
+.btn{
+  margin-left: 20px;
+}
+
+@media (max-width: 768px){ 
+    .navL {
+     display:none;
+   } 
+}
+
+
+@media (min-width: 769px){ 
+  .navS{
+    display:none;}
+    
+  }
