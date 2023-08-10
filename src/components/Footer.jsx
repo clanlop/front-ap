@@ -13,9 +13,9 @@ const handLesShow=()=>{
       <div className="container">
       
       <ul className="nav justify-content-center border-bottom pb-3 mb-3">
-        <li className="nav-item"><a href="#" className="nav-link px-2  text-muted">Home</a></li>
-        <li className="nav-item"><a href="./Cities.html" className="nav-link px-2 text-muted">Cities</a></li>
-        <li className="nav-item"><a href="./abautUs" className="nav-link px-2 text-muted">Abaut Us</a></li>
+        <li className="nav-item"><a href="/" className="nav-link px-2  text-muted">Home</a></li>
+        <li className="nav-item"><a href="../Cities" className="nav-link px-2 text-muted">Cities</a></li>
+        <li className="nav-item"><a href="#" className="nav-link px-2 text-muted">Abaut Us</a></li>
         <li className="nav-item"><button onClick={handLesShow} className="nav-link px-2 text-muted">Contact</button></li>
         
       </ul>
@@ -24,7 +24,9 @@ const handLesShow=()=>{
         {
           show
           ?<ul className="nav justify-content-center list-unstyled mb-3">
-            <li className="ms-1"><a className="text-muted" href="https://web.whatsapp.com" ><svg
+            <li className="ms-1"><a className="text-muted" href="https://web.whatsapp.com" >
+              
+              <svg
                   xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" className="bi bi-whatsapp"
                   viewBox="0 0 16 16">
                   <path

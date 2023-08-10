@@ -1,0 +1,52 @@
+.card{
+    width: 20rem !important;
+    display: flex !important;
+   flex-direction: row !important;
+   flex-wrap: wrap;
+   justify-content: space-around;
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+    background:fixed !important;
+     border: none !important;
+}
+
+.img{
+    margin-top: 3px;
+    margin-bottom: 3px;
+    width:9rem;
+    position: relative;
+}
+.carousel-item.active{
+   
+display: flex !important;
+justify-content: center;
+flex-wrap: wrap;
+
+   
+}
+.TitleC{
+    margin-top: 2rem;
+}
+.carousel {
+    background-image:url(../images/avion.jpg) ;
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-position: center;
+    margin-bottom: 2rem;
+}
+.p1{
+    position: absolute;
+    color: aliceblue;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+.p2{
+    font-size: 10px;
+    position: absolute;
+    color: aliceblue;
+    top: 90%;
+    left: 50%;
+    
+   }

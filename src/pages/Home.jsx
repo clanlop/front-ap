@@ -1,8 +1,15 @@
-
-
+import CallToAction from '../components/CallToAction'
+import Carousel from '../components/Carousel'
 const Home = () => {
   return (
-    <div>Home</div>
+    <>
+    
+    <CallToAction>
+    </CallToAction>
+
+    <Carousel>
+    </Carousel>
+    </>
   )
 }
 

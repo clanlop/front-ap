@@ -1,9 +1,12 @@
 import React from 'react'
-import Nav from'../components/Nav'
-import Footer from '../components/Footer'
+
 function Cities() {
   return (
-    <div>Cities</div>
+    
+    <div>
+     <h2> Cities</h2>
+     <img src='../images/Construction.png'></img>
+    </div>
   )
 }
 

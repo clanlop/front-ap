@@ -1,18 +1,16 @@
-import Main from './layouts/Main'
-import Cities from './pages/Cities'
-import Home from './pages/Home'
-import './App.css'
+import'./styles/Nav.css'
 import'./styles/Header.css'
+import './styles/Carousel.css'
 import './styles/Footer.css'
-import './styles/Nav.css'
+import './styles/CallToAction.css'
+import './App.css'
+import { RouterProvider } from 'react-router-dom';
+import router from './router/router'
 function App() {
   
   return (
-    <>
-      <Main>
-        <Home />
-      </Main>
-    </>
+    
+   <RouterProvider router={router}/>
   )
 }
 

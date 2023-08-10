@@ -1,0 +1,35 @@
+
+#btnC.btn{
+    background-color: #600a9e;
+    
+    color: aliceblue;
+    margin-top: 2rem;
+}
+.textC{
+    font-family: cursive;
+    color: rgba(30, 109, 255, 0.8);
+   
+}
+.bodyC{
+    margin-top: 5rem;
+    margin-bottom: 10rem;
+   
+}
+.CallTo{
+    background-image: url('../images/amaca2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-attachment:scroll;
+    object-fit:cover!important;
+
+
+   ;
+}
+.titleC{
+    color: dodgerblue;
+font-size: 5rem;
+}
+.textI{
+    margin-top: 4rem;
+}
