@@ -14,7 +14,7 @@ const Carousel = () => {
     <div className="carousel-item active"data-bs-interval="8000"  >
     <div className="card" >
      <div className="img">
-     <img src="../images/New York.jpg" height="200"  className="d-block w-100 " alt="New York"></img> 
+     <img src="../images/NewYork1.jpg" height="200"  className="d-block w-100 " alt="New York"></img> 
    <p className="p1">New York</p>
    <p className="p2">United States</p>
     </div>

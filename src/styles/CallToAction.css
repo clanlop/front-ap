@@ -7,16 +7,16 @@
 }
 .textC{
     font-family: cursive;
-    color: rgba(30, 109, 255, 0.8);
+    color: rgba(6, 58, 156, 0.904);
    
 }
 .bodyC{
-    margin-top: 5rem;
+    margin-top: 2rem;
     margin-bottom: 10rem;
    
 }
 .CallTo{
-    background-image: url('../images/amaca2.jpg');
+    background-image: url('../images/belice.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -31,5 +31,5 @@
 font-size: 5rem;
 }
 .textI{
-    margin-top: 4rem;
+    margin-top: 1rem;
 }

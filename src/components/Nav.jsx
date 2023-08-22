@@ -9,15 +9,11 @@ return (
 <>
 
 <div className='navL'>
-  <nav className="navbar navbar-dark bg-dark">
-  
+  <nav className="navbar">
   <div className="container-fluid">
   <div>
-   
-    <img src="./images/MyTineraryR.png" alt="" width="100" height="100" ></img>
-   
-  </div>
-  
+   <img src="./images/MyTineraryLogo.png" alt="" width="100" height="100" ></img>
+   </div>
   <div>
   <a className="btn btn-light " href="/" role="button">Home</a>
   <a className="btn btn-light"  href="../Cities" role="button">Cities</a>
@@ -32,9 +28,10 @@ return (
 <div className='navS'>
   <nav className="navbar">
     <div className="container-fluid">
-    <h2 className='header-title'>My Tinerary</h2>
+    <img src="./images/MyTineraryLogo.png" alt="" width="100" height="100" ></img>
+
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span className="navbar-toggler-icon"></span>
+    <span className="navbar-toggler-icon"> </span>
     </button>
     <div className="collapse navbar-collapse" id="navbarNav">
       <ul className="navbar-nav">

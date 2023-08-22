@@ -51,7 +51,7 @@ const handLesShow=()=>{
 
       <div className="container d-flex justify-content-center">
         <div className=" d-flex align-items-center">
-          <span className="mb-3 text-nowrap">©Argentina Programa 2023| MindHub | Claudia A. López</span>
+          <span className=" textF mb-3 text-nowrap">©Argentina Programa 2023| MindHub | Claudia A. López</span>
         </div>
        
       </div>

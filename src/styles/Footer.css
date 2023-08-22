@@ -9,6 +9,14 @@
     
      }
  svg.bi.bi-instagram:hover{
-         color:rgb(255, 0, 170);}       
+         color:rgb(255, 0, 170);}
          
+         
+
+ @media screen and (max-width:425px){
+
+            .texF{
+               font-size: 11px!important
+            }
+         }     
          

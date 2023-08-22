@@ -3,6 +3,7 @@ import'./styles/Header.css'
 import './styles/Carousel.css'
 import './styles/Footer.css'
 import './styles/CallToAction.css'
+import './styles/Cards.css'
 import './App.css'
 import { RouterProvider } from 'react-router-dom';
 import router from './router/router'

@@ -26,6 +26,7 @@ flex-wrap: wrap;
 }
 .TitleC{
     margin-top: 2rem;
+    color: rgb(9, 122, 236);
 }
 .carousel {
     background-image:url(../images/avion.jpg) ;

@@ -1,0 +1,44 @@
+
+.card-img-top{
+
+    object-fit:cover!important;
+  
+    height: 250px;
+   border-top-left-radius: 0.5em!important;
+   border-top-right-radius: 0.5em!important;
+   }
+  .col{
+    margin-right: 1rem;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+  }
+  .citycard{
+    background-color:lightblue;
+   
+   border-radius: 0.5em;
+
+  }
+  
+  .citycontainer{
+
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+   
+
+  }
+  form.d-flex{
+    margin-top: 5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  .container-fluid{
+    display:grid;
+    place-content: center;
+  }
+  .btn-primary{
+    margin-bottom: 2rem;
+  }
