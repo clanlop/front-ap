@@ -1,5 +1,10 @@
 .navbar{
-  
+  background-image: url(/images/navbar.jpg);
+  background-repeat:no-repeat ;
+    background-size:cover;
+    background-position:center ;
+    box-shadow: 0px 0px 10px 10px  inset rgba(103, 149, 209, 0.856);
+   height: 300px; ;
 }
 
 

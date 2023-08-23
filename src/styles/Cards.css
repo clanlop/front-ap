@@ -39,6 +39,8 @@
     display:grid;
     place-content: center;
   }
-  .btn-primary{
+  #btnD.btn{
+    background-color:royalblue;
     margin-bottom: 2rem;
+    margin-top: 2rem;
   }

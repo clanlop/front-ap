@@ -7,8 +7,9 @@
 }
 .textC{
     font-family: cursive;
-    color: rgba(6, 58, 156, 0.904);
-   
+    color: dodgerblue ;
+   margin-top: 3rem;
+   font-size: 25px;
 }
 .bodyC{
     margin-top: 2rem;
@@ -16,20 +17,37 @@
    
 }
 .CallTo{
-    background-image: url('../images/belice.jpg');
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(80, 78, 78, 0.5)), url('../images/belice.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
     background-attachment:scroll;
     object-fit:cover!important;
-
+height: 800px
 
    ;
 }
 .titleC{
     color: dodgerblue;
-font-size: 5rem;
+font-size: 4rem;
+margin-top: 5rem;
 }
 .textI{
-    margin-top: 1rem;
+    margin-top: 16rem;
+    font-size: 25px;
+    color: #600a9e;
+}
+
+@media  (max-width:425px){
+
+    .textC{font-size: 18px;
+    
+}
+
+.titleC{
+    font-size: 3rem;
+}
+.textI{
+    font-size: 18px; ;
+}
 }

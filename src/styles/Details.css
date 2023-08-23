@@ -1,0 +1,11 @@
+
+.TD{
+    font-size: 2rem;
+    color: rgba(6, 58, 156, 0.921);
+}
+
+@media  (max-width:425px){
+    .TD{
+        font-size: 1rem;
+}
+}

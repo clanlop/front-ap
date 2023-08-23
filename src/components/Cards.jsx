@@ -3,7 +3,7 @@ const Cards=({title,country,description,image})=>{
         <>
        
       
-<div className="citycontainer row-cols-1 row-cols-md-3 g-4">
+<div className="citycontainer row-cols-1 row-cols-md-3 g-">
       
           <div className="col">
             <div  className="citycard" >
@@ -12,7 +12,7 @@ const Cards=({title,country,description,image})=>{
                 <h5 className="card-title">{title}</h5>
                 <h5> {country}</h5>
                <p className="card-text">{description}</p>
-                <a href="" className="btn btn-primary">Details</a>
+                <a href="" id="btnD" className="btn">Details</a>
               </div>
             </div>
           </div>

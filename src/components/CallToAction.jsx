@@ -8,10 +8,10 @@ const CallToAction = () => {
   <div className="bodyC ">
     < div className="titleC">MyTinerary</div>
     <br />
-    <h4 className="textC ">"Find your perfect trip, designed by insiders who know and love their cities"</h4>
+    <p className="textC ">"Find your perfect trip, designed by insiders who know and love their cities"</p>
     <br />
     <br />
-    <h4 className="textI">We have the best destinations in the world</h4>
+    <p className="textI">We have the best destinations in the world</p>
     <a id="btnC" href="../cities" className="btn">discover them</a>
   </div>
   

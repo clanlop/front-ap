@@ -9,7 +9,7 @@ const handLesShow=()=>{
   return (
     
     
-    <footer >
+    <footer className="footer  text-secondary" >
       <div className="container">
       
       <ul className="nav justify-content-center border-bottom pb-3 mb-3">
@@ -51,7 +51,7 @@ const handLesShow=()=>{
 
       <div className="container d-flex justify-content-center">
         <div className=" d-flex align-items-center">
-          <span className=" textF mb-3 text-nowrap">©Argentina Programa 2023| MindHub | Claudia A. López</span>
+          <span className=" textF mb-3 text-nowrap text-secondary">©Argentina Programa 2023| MindHub | Claudia A. López</span>
         </div>
        
       </div>
