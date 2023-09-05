@@ -3,20 +3,23 @@ const Cards=({title,country,description,image})=>{
         <>
        
       
-<div className="citycontainer row-cols-1 row-cols-md-3 g-">
+<div id="card"  className="card mb-3 " >
       
-          <div className="col">
-            <div  className="citycard" >
-              <img src={image}className="card-img-top" alt="..."></img>
+          <div className="row" >
+            <div  className="col-md-6 " >
+              <img src={image}className="img-fluid" alt="..."></img>
+             </div>
+             <div className="col-md-6">
               <div className="card-body">
-                <h5 className="card-title">{title}</h5>
+                <h1 className="card-title">{title}</h1>
                 <h5> {country}</h5>
+                <br />
                <p className="card-text">{description}</p>
-                <a href="" id="btnD" className="btn">Details</a>
+              </div>  
               </div>
             </div>
-          </div>
-         
+        
+       
           
 
 </div>

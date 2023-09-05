@@ -4,9 +4,12 @@
     background-size:cover;
     background-position:center ;
     box-shadow: 0px 0px 10px 10px  inset rgba(103, 149, 209, 0.856);
-   height: 300px; ;
+   height: 300px;
+  
 }
-
+a{
+  text-decoration: none!important;
+}
 
 .btn{
   margin-left: 20px;
@@ -21,6 +24,12 @@
 
 @media (min-width: 769px){ 
   .navS{
-    display:none;}
+    display:none;
+    
+  }
+    
+       
+    
+    
     
   }

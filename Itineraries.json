@@ -1,0 +1,62 @@
+{
+    "itineraries":[
+        {
+            "excursion":"Entrance to the Empire State Building",
+            "price":2,
+            "duration":2,
+            "hashtags":["#EmpireState","#Itineraries","#Excursions"],
+            "like":9,
+            "comments":[],
+            "coordinator":{
+                "name":"Patricio Perez",
+                "photo":"/images/avatar1.png"
+                
+            },
+            "city":"64e4d362ceaf41d087d612fe"
+        },
+        {
+            "excursion":"Niagara Falls Tour",
+            "price":3,
+            "duration":3,
+            "hashtags":["#Itineraries","#Excursions","#Niagara","#Natural beauties"],
+            "like":6,
+            "comments":[],
+            "coordinator":{
+                "name":"Nelson Parker",
+                "photo":"/images/avatar2.png"
+                
+            },
+            "city":"64e4d362ceaf41d087d612fe"
+        },
+        {
+            "excursion":"Tour of the palaces and mosques of Istanbul",
+            "price":2,
+            "duration":2,
+            "hashtags":["#Excursions","#Mosques","#Istanbul","#Palaces"],
+            "like":8,
+            "comments":[],
+            "coordinator":{
+                "name":"Zeynep Yilmaz",
+                "photo":"/images/avatar4.png"
+            },
+            "city":"64e4d362ceaf41d087d61307"
+        },
+        {
+            "excursion":"Sunset Bosphorus Cruise",
+            "price":3,
+            "duration":3,
+            "hashtags":["#Cruice","#Excursions","#Rides","#Istanbul"],
+            "like":"7",
+            "comments":[],
+            "coordinator":{
+                "name":"Elif Kaya ",
+                "photo":"/images/avatar3.png"
+               
+         },
+         "city":"64e4d362ceaf41d087d61307"
+        }
+         
+    ]
+
+    
+}

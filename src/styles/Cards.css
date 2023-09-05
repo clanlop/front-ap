@@ -1,46 +1,62 @@
-
-.card-img-top{
-
-    object-fit:cover!important;
+a{
+  text-decoration: none!important;
+}
+.img-fluid{
+  object-fit:cover!important;
+  height:100%!important;
+   border-top-left-radius: 0.5em;
+   border-bottom-left-radius: 0.5em;
   
-    height: 250px;
-   border-top-left-radius: 0.5em!important;
-   border-top-right-radius: 0.5em!important;
    }
   .col{
     margin-right: 1rem;
     margin-left: 1rem;
     margin-bottom: 2rem;
   }
-  .citycard{
-    background-color:lightblue;
-   
-   border-radius: 0.5em;
-
-  }
   
-  .citycontainer{
-
-    display: flex !important;
-    flex-direction: row !important;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin-bottom: 5rem;
-    margin-top: 5rem;
-   
-
-  }
-  form.d-flex{
-    margin-top: 5rem;
-    margin-left: 2rem;
-    margin-right: 2rem;
-  }
+  
+ 
+  
   .container-fluid{
     display:grid;
     place-content: center;
   }
+  
   #btnD.btn{
     background-color:royalblue;
     margin-bottom: 2rem;
     margin-top: 2rem;
+  }
+  #card{
+    width:45rem!important;
+    background-color:royalblue!important;
+    
+  }
+  
+  @media (max-width: 768px){
+    .col-md-6{
+      margin-right: 0;
+      width: 100% !important;
+     }
+     .container-fluid{
+      margin-right: 4rem!important;
+  }
+}
+  @media  (max-width:425px){
+    #card{
+      width: 100% !important;
+      border-radius: 0.5em!important;
+    }
+    .container-fluid{
+     margin-right: 2rem!important;
+  }
+    
+  .img-fluid{
+    border-top-left-radius:0.5em!important;
+    border-top-right-radius: 0.5em;
+  }  
+    
+  }
+  .card-title,.h5,h5{
+    color:  dodgerblue!important ;
   }

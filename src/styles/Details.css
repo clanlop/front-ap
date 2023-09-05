@@ -1,11 +1,134 @@
+.container-detail{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10vh
+}
+#cardDetail{
+margin: 5vh;
+align-self: center;
+width: 80%!important;
+border-radius: 40px;
+overflow: hidden;
+    
+}
 
-.TD{
-    font-size: 2rem;
-    color: rgba(6, 58, 156, 0.921);
+
+
+.titleD{
+color: dodgerblue;
+font-size: 3rem;
+margin-top: 5rem;
+font-style: oblique;
+}
+.container-itineraries{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 100%;
+    height: auto;
+}
+
+.card-info{
+    background-color:  #44444b;
+    color: aliceblue!important;
+    border-radius: 0.5rem;
+    margin-bottom: 5vh;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5vh 0;
+    width: 80%;
+    border-radius: 40px;
+    min-height: 60vh;
+    overflow: hidden;
+   
+}
+.card-itinerary,.card-detail{
+    border-bottom: 5px solid #1d1d1f;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+   
+}
+.card-detail{
+    flex-direction: row;
+    height: 35vh;
+    padding: 5vh 0;
+}
+
+.detP-D{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    width: 25%;
+}
+.price{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 2.5rem;
+}
+
+#btn-more{
+    background-color: rgba(78, 92, 149, 0.9);
+ ;
+    margin-top: 2rem;
+   
+}
+
+.cash{
+    margin-bottom: 5%;
+}
+.coordinator{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+img.img-coord{
+   border-radius:50% !important;
+}
+
+
+.like{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 25%;
+}
+.like-imag{
+    transition: .2s;
+    cursor: pointer;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.liken-imag{
+    display: flex;
+    justify-content: center;
+}
+.like-number{
+    align-self: flex-end;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.hashtag{
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    font-size: .8rem;
+    font-weight: lighter
 }
 
 @media  (max-width:425px){
-    .TD{
-        font-size: 1rem;
-}
+    
+
+  .titleD{
+    font-size: 1.5rem;
+  }
+  
 }

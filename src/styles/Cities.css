@@ -4,3 +4,10 @@ font-size: 3rem;
 margin-top: 2rem;
 
 }
+.search{
+    display: flex;
+   
+    margin-top: 5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}

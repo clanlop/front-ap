@@ -1,50 +1,64 @@
+
+import { useDispatch } from 'react-redux'
+
+import ItineraryDetails from '../components/ItineraryDetails'
 import React from 'react'
-import { useEffect ,useState} from "react";
+import { useEffect } from "react";
 import { useParams } from "react-router-dom"
-import axios from 'axios'
-
-
+import { useSelector } from 'react-redux/es/hooks/useSelector';
+import {  get_city } from '../store/actions/cityActions'
+import { get_itinerary } from '../store/actions/itineraryActions';
 const Details = () => {
- 
-    const  {id} = useParams();
-    const [cities,setCities]=useState();
-    useEffect(() => {
-        
-        axios.get('http://localhost:8000/api/cities/'+id)
-        .then(response =>{setCities(response.data.city)
-        console.log(response)
-        } )
-        .catch(err => console.log(err))
+  
 
-    }, [])
+
+    const  {id} = useParams();
+    const city =useSelector(store=>store.cityReducer.city);
+console.log(city)
+
+    const itinerary=useSelector((store)=>store.itineraryReducer.itinerary);
+    console.log(itinerary)
+    const dispatch=useDispatch()
+    useEffect(() => {
+        dispatch(get_city(id));
+
+        dispatch(get_itinerary(id));
+      }, []);
+
+    
+    
+     
 
 return (
+ <div className='container-detail'>
    
-    <div>
-    <p className='TD'>Details:{id}</p>
-    <div className="citycontainer row-cols-1 row-cols-md-3 g- ">
-      
-      <div className="col">
-        <div  className="citycard" >
-          <img src={cities?.image}className="card-img-top" alt="..."></img>
-          <div className="card-body">
-            <h5 className="card-title">{cities?.city}</h5>
-            <h5> {cities?.country}</h5>
-           
-          </div>
-        </div>
-      </div>
+   <p className='titleD'>"Discover the activities and excursions designed for you"</p>
+   <div className='container-itineraries'>
+    <div id='cardDetail' className="card text-bg-dark" >
+    <img src={city.image}className="card-img-top" alt="..."></img>
+      <div className="card-img-overlay">
+      <h1 className="card-title">{city.city}</h1>
+      <h5> {city.country}</h5>
+
+    </div>
      </div>
-<div className='container row-cols-1 '>
-  <img src='../images/Construction.png'></img>
 </div>
+{ city?.itinerary?.length > 0
+  ? city.itinerary?.map((itinerary) => {
+     return(
+     
+     <ItineraryDetails key={itinerary._id} excursion={itinerary.excursion} price={itinerary.price} duration={itinerary.duration}hashtags ={itinerary.hashtags} like={itinerary.like}comments={itinerary.comments}photo={itinerary.coordinator.photo}coordinator={itinerary.coordinator.name}/>
+  
+     )
+     } 
+      )
+      : <h2> Sorry, there are no itineraries for this city yet.
+     We are working on it!</h2>
+ }
+
 </div>
-
-
-    )
-    
-
-  }
+)
+    }
 
 
 export default Details
