@@ -1,0 +1,17 @@
+#cardReg{
+    border-radius: 1rem;
+    background-color: darkslategray !important;
+    color: aliceblue;
+    width: 30rem !important;
+}
+@media  (max-width:425px){
+
+    #cardReg{
+        width: 18rem !important;
+    }
+}
+@media  (max-width:768px){
+    .form-container{
+        flex-wrap: wrap;
+    }
+}

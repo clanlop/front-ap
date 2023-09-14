@@ -1,0 +1,58 @@
+/*Style="border-radius: 1rem;*/
+#cardLogin{
+    border-radius: 1rem;
+    background-color: darkslategray !important;
+    color: aliceblue;
+    margin-top: 1rem !important;
+}
+.textS{
+    font-size: 25px;
+    color: #600a9e;
+    margin-top: 6rem;
+}
+
+.Sign{
+    height: 110vh;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 4rem;
+    padding: 5vh 0;
+}
+.form-container{
+  
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    
+    
+
+}
+
+.cardLogin{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   padding: 3rem;
+    
+}
+.SignCall{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+   
+}
+@media  (max-width:425px){
+    .form-container{
+        flex-wrap: wrap;
+    }
+    .card{
+        width: 16rem;
+    }
+    .cardLogin{
+        padding: 0;
+    }
+    
+}

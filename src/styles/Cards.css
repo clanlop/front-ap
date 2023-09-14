@@ -22,11 +22,7 @@ a{
     place-content: center;
   }
   
-  #btnD.btn{
-    background-color:royalblue;
-    margin-bottom: 2rem;
-    margin-top: 2rem;
-  }
+ 
   #card{
     width:45rem!important;
     background-color:royalblue!important;

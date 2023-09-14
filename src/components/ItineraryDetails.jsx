@@ -60,7 +60,28 @@ cashImages.push(
   <button id='btn-more' className='btn' type="button" data-bs-toggle="collapse" data-bs-target="#collapse" aria-expanded="false" aria-controls="collapse">more information</button>
   <div id="collapse"className='collapse'>
       <div className="card card-body">
-        <strong>This is the second s accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables.  also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+        <div>
+        <h3>Activities!</h3>
+        </div>
+        <div className='activities-container'>
+          <div className='activity'>
+            <div className='activity1'>
+              
+            </div>
+            <div className='description'>
+              <h4>Maid of the Mist Boat Tour</h4>
+            
+            </div>
+
+          </div>
+          <div className='activity'>
+            
+          </div>
+          <div className='activity'>
+            
+          </div>
+        </div>
+        
       </div>
     </div>
   
