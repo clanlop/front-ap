@@ -1,5 +1,6 @@
 import React from 'react'
-const ItineraryDetails=({excursion,price,duration,hashtags,like,comments,coordinator,photo,name,})=>{
+
+const ItineraryDetails=({excursion,price,duration,hashtags,like,comments,coordinator,photo,name,activity1,activity2,activity3,description1,description2,description3})=>{
   // Función para generar un array con la cantidad de imágenes de billetes según el precio
       const generateCashImages = (price) => {
         const cashImages = [];
@@ -59,28 +60,42 @@ cashImages.push(
  
   <button id='btn-more' className='btn' type="button" data-bs-toggle="collapse" data-bs-target="#collapse" aria-expanded="false" aria-controls="collapse">more information</button>
   <div id="collapse"className='collapse'>
-      <div className="card card-body">
-        <div>
-        <h3>Activities!</h3>
+  <div className="card card-body">
+  <>
+      <div>
+<h3>Activities!</h3>
+</div>
+       <div className='activities-container'>
+       <div className='activity'>
+        <div className='activity1'>
+      <img  src={activity1} width={200}height={200} />
         </div>
-        <div className='activities-container'>
-          <div className='activity'>
-            <div className='activity1'>
-              
-            </div>
-            <div className='description'>
-              <h4>Maid of the Mist Boat Tour</h4>
-            
-            </div>
+        <div className='description'>
+        <h5>{description1} </h5>
+        </div>
 
-          </div>
-          <div className='activity'>
-            
-          </div>
-          <div className='activity'>
-            
-          </div>
         </div>
+       <div className='activity'>
+    <div className="activity1">
+    <img  src={activity2} width={200}height={200} /> 
+    </div>
+    <div className='description'>
+        <h5>{description2} </h5>
+        </div>
+       </div>
+       <div className='activity'>
+       <div className="activity1">
+       <img  src={activity3} width={200}height={200} />
+       </div>
+       <div className='description'>
+        <h5>{description3} </h5>
+        </div>
+</div>
+        </div>
+
+
+
+</>
         
       </div>
     </div>

@@ -9,7 +9,15 @@
             "comments":[],
             "coordinator":{
                 "name":"Patricio Perez",
-                "photo":"/images/avatar1.png"
+                "photo":"/images/avatar1.png",
+                "activities":{
+                    "activity1":"../images/museoPiso2.jpg",
+                    "activity2":"../images/descarga.jpg",
+                    "activity3":"../images/piso102.jpg",
+                    "description1":"You will visit will be the museum on the 2nd floor",
+                    "description2":"the 360º panoramic of New York",
+                    "description3":"GO UP TO THE 102nd FLOOR"
+                }
                 
             },
             "city":"64e4d362ceaf41d087d612fe"
@@ -23,7 +31,15 @@
             "comments":[],
             "coordinator":{
                 "name":"Nelson Parker",
-                "photo":"/images/avatar2.png"
+                "photo":"/images/avatar2.png",
+                "activities":{
+                    "activity1":"../images/niagara_150.jpg",
+                    "activity2":"../images/niagara_6.jpg",
+                    "activity3":"../images/niagara_12.jpg",
+                    "description1":"Maid of the Mist Boat Tour",
+                    "description2":"See the Falls very well and up close!!",
+                    "description3":"Entrance to Niagara Falls State Park"
+                }
                 
             },
             "city":"64e4d362ceaf41d087d612fe"
@@ -37,7 +53,15 @@
             "comments":[],
             "coordinator":{
                 "name":"Zeynep Yilmaz",
-                "photo":"/images/avatar4.png"
+                "photo":"/images/avatar4.png",
+                "activities":{
+                    "activity1":"../images/Hagia-Sophia2.jpg",
+                    "activity2":"../images/Suleymaniye-Mosque.jpg",
+                    "activity3":"../images/Ortakoy-Mosque.jpg",
+                    "description1":"Hagia Sophia Mosque",
+                    "description2":"Suleymaniye Mosque",
+                    "description3":"Ortakoy mosque"
+                }
             },
             "city":"64e4d362ceaf41d087d61307"
         },
@@ -50,7 +74,15 @@
             "comments":[],
             "coordinator":{
                 "name":"Elif Kaya ",
-                "photo":"/images/avatar3.png"
+                "photo":"/images/avatar3.png",
+                "activities":{
+                    "activity1":"../images/b3.jpg",
+                    "activity2":"../images/97.jpg",
+                    "activity3":"../images/98.jpg",
+                    "description1":"nightfall on a cruise",
+                    "description2":"from a cruise ship admire the cosmopolitan city",
+                    "description3":"See the monuments of Istanbul"
+                }
                
          },
          "city":"64e4d362ceaf41d087d61307"

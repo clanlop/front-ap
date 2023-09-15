@@ -2,7 +2,7 @@ import {Link }from'react-router-dom';
 
 import { signout } from "../store/actions/userActions";
 import { useSelector,useDispatch } from 'react-redux';
-import Swal from 'sweetalert2';
+
 const Nav = () => {
   const dispatch=useDispatch();
  
