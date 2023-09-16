@@ -2,6 +2,7 @@
 
 const CallToAction = () => {
   return (
+   
    <div className="CallTo">
   
 

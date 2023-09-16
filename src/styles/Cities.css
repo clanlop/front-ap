@@ -11,3 +11,12 @@ margin-top: 2rem;
     margin-left: 2rem;
     margin-right: 2rem;
 }
+.cityCard{
+   
+   flex-wrap: wrap;
+  
+    display: flex;
+ 
+    margin-bottom: 5vh;
+   
+}

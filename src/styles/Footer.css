@@ -1,5 +1,20 @@
- 
+ a.nav-link{
+   color:darkgray !important;
+ }
+ a.nav-link:hover{
+color:rgb(241, 239, 239)!important;
+ }
+ button.nav-link{
+   color:darkgray !important;
+
+ }
+ button.nav-link:hover{
+   color:rgb(241, 239, 239)!important;
+    }
  /*redes*/
+ svg.bi.bi-facebook,svg.bi.bi-whatsapp,svg.bi.bi-instagram{
+   color:darkgray ;
+ }
  svg.bi.bi-facebook:hover{
     color:rgb(0, 89, 255);
    

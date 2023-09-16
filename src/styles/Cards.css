@@ -24,8 +24,9 @@ a{
   
  
   #card{
-    width:45rem!important;
-    background-color:royalblue!important;
+    width:100%!important;
+    background-color:#44444b!important;
+   color:aliceblue
     
   }
   
@@ -56,3 +57,4 @@ a{
   .card-title,.h5,h5{
     color:  dodgerblue!important ;
   }
+  

@@ -56,10 +56,12 @@ cashImages.push(
   </div> 
     </div>
    </div>
-  <div>
  
+ <div>
   <button id='btn-more' className='btn' type="button" data-bs-toggle="collapse" data-bs-target="#collapse" aria-expanded="false" aria-controls="collapse">more information</button>
+  </div>
   <div id="collapse"className='collapse'>
+  
   <div className="card card-body">
   <>
       <div>
@@ -105,7 +107,7 @@ cashImages.push(
 </div>
 
 
-</div>
+
 
         </>
     )

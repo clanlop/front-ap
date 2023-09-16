@@ -7,14 +7,14 @@ const Cards=({title,country,description,image})=>{
       
           <div className="row" >
             <div  className="col-md-6 " >
-              <img src={image}className="img-fluid" alt="..."></img>
+              <img src={image}className="img-fluid"  alt="..." />
              </div>
              <div className="col-md-6">
               <div className="card-body">
                 <h1 className="card-title">{title}</h1>
                 <h5> {country}</h5>
                 <br />
-               <p className="card-text">{description}</p>
+               <p className="card-text" >{description}</p>
               </div>  
               </div>
             </div>

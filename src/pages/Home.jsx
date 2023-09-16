@@ -3,12 +3,13 @@ import Carousel from '../components/Carousel'
 const Home = () => {
   return (
     <>
-    
+   
     <CallToAction>
     </CallToAction>
 
     <Carousel>
     </Carousel>
+   
     </>
   )
 }

@@ -26,7 +26,7 @@ export const Cities = () => {
 }
 
   return (
-
+<>
     <div className="container-fluid">
       <div className="search" >
         <input ref={inputSearch} className="form-control me-2" placeholder='Search' type="search" aria-label="Search"></input>
@@ -35,7 +35,11 @@ export const Cities = () => {
         </svg>
         </button>
       </div>
+      
+      <div  className='container'>
       <div className="Tcities">Cities</div>
+      
+        <div className='cityCard'>
       {
         cities?.length > 0
 
@@ -50,7 +54,10 @@ export const Cities = () => {
           : <h2>The city you are looking for is not in our itinerary </h2>
          
       }
-    </div>
+      </div>
+      </div>
+      </div>
+      </>
   )
 }
 

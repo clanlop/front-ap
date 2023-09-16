@@ -4,12 +4,17 @@
     
     color: aliceblue;
     margin-top: 2rem;
+    margin-bottom: 2rem !important;
 }
+#btnC.btn:hover{
+   background-color:#850edbf7;
+}
+
 .textC{
     font-family: cursive;
-    color: dodgerblue ;
+    
    margin-top: 3rem;
-   font-size: 25px;
+   font-size: 30px;
 }
 .bodyC{
     margin-top: 2rem;
@@ -34,8 +39,9 @@ margin-top: 5rem;
 }
 .textI{
     margin-top: 16rem;
-    font-size: 25px;
+    font-size: 30px;
     color: #600a9e;
+    font-weight: bold;
 }
 
 @media  (max-width:425px){
